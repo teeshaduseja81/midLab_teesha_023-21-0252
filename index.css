@@ -1,0 +1,155 @@
+header {
+    background-color: black;
+    color: white; /* Text color in the header */
+    padding: 5px; /* Add some padding for spacing */
+  }
+  
+  /* Style the navigation links */
+  header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header li {
+    display: inline;
+    margin-right: 10px; /* Adjust the spacing between links */
+  }
+  
+  header a {
+    text-decoration: none;
+    color: white; /* Link color in the header */
+    font-weight: bold;
+  }
+  
+  /* Change link color on hover */
+  header a:hover {
+    color: lightgray;
+  }
+  /* Add styles for the main section */
+  /* Add styles for the main section */
+.main-section {
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Style for the descriptions on the left */
+  .description.left {
+    flex: 1;
+    text-align: left;
+  }
+  
+  /* Style for the descriptions on the right (for the logo) */
+  .description.right {
+    flex: 1;
+    text-align: center;
+  }
+  
+  /* Style for the logo container */
+  .logo img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  /* Style for the headings and text */
+  h2 {
+    font-size: 24px;
+    color: #333; /* Adjust the text color */
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555; /* Adjust the text color */
+  }
+
+  /* Add styles for the feature section */
+/* Add styles for the feature section */
+/* Add styles for the feature section */
+/* Adjust the carousel and image sizes */
+/* Adjust the image size and alignment */
+.carousel-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .carousel-item img {
+    max-width: 100px; /* Set the maximum width for each image, adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Add margin between images */
+  }
+  
+  
+  .group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-darkslateblue);
+    width: 90rem;
+    height: 9.25rem;
+  }
+  .image-1-icon {
+    position: absolute;
+    top: 1.38rem;
+    left: 4rem;
+    width: 7.13rem;
+    height: 6.56rem;
+    object-fit: cover;
+  }
+  .rectangle-parent {
+    width: 90rem;
+    height: 9.25rem;
+  }
+  .home,
+  .rectangle-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .about,
+  .services {
+    position: absolute;
+    top: 0;
+    left: 8.31rem;
+  }
+      /* CSS styles */
+      .feature-section {
+        background: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .feature-box {
+        background: blue;
+        padding: 20px;
+        margin: 10px;
+      }
+
+      .feature-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .contact-section {
+        background: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .contact-box {
+        background: blue;
+        padding: 20px;
+        margin: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .contact-item {
+        flex-basis: 48%; /* Adjust width as needed */
+        margin-bottom: 10px;
+      }
